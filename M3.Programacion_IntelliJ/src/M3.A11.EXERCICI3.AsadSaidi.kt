@@ -22,7 +22,7 @@ do {
         for (i in 2..num - 1) {
             if (num % i == 0) {
                 esPrimer = false
-                println("El $num es divisible per $i , llavors no es un numero primer.")
+                println("El $num es divisible per: $i , llavors no es un numero primer.")
             }
         }
     }
